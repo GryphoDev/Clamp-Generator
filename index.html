@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Générateur Clamp</title>
+  </head>
+  <body>
+    <h1>Générateur Clamp</h1>
+    <div class="box">
+      <form id="clamp">
+        <label for="screenWeight">Taille max de l'écran :</label>
+        <input id="screenWeight" type="text" />
+        <label for="fontMin">Taille min de la font en px :</label>
+        <input id="fontMin" type="text" />
+        <label for="fontMax">Taille max de la font en px :</label>
+        <input id="fontMax" type="text" />
+        <button type="submit">Valider</button>
+      </form>
+      <p class="results"></p>
+    </div>
+  </body>
+</html>
